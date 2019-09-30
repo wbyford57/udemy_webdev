@@ -1,0 +1,53 @@
+#first-section{
+    color:black;
+    width:400px;
+    border-radius: 10px;
+    padding-left: 0px;
+
+}
+.clrleftmenu {
+    position:relative;
+    left:25px;
+}
+#left-menu{
+    background-color: gainsboro;
+    height: 1200px;
+    width: 150px;
+    float: left;
+}
+#lmitems{
+    list-style: none;
+    position: relative;
+    right: 30px;
+}
+#traveltimes{
+    list-style: lower-alpha;
+    position: relative;
+    left: 40px;
+}
+#dest-list{
+    list-style: circle;
+    position: relative;
+    left: 40px;
+}
+table{
+    border-collapse: collapse;
+  }
+th{
+    text-align: left;
+    background-color: lightgray;
+
+}
+table, td, th{
+    border: 1px solid black;
+    padding: 1px 5px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: green;
+}
