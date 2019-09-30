@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>My Webpage</title>
+        <style type="text/css">
+            #first-section{
+                color:black;
+                width:400px;
+                border-radius: 10px;
+                padding-left: 0px;
+
+            }
+            .clrleftmenu {
+                position:relative;
+                left:25px;
+            }
+            #left-menu{
+                background-color: gainsboro;
+                height: 1200px;
+                width: 100px;
+                float: left;
+            }
+            #lmitems{
+                list-style: none;
+            }
+            #traveltimes{
+                list-style: lower-alpha;
+                position: relative;
+                left: 40px;
+            }
+            table{
+                border-collapse: collapse;
+              }
+            th{
+                text-align: left;
+                background-color: lightgray;
+
+            }
+            table, td, th{
+                border: 1px solid black;
+                padding: 1px 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="left-menu">
+            <p>Please visit:</p>
+            <ul id="lmitems">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+                <li>Item 6</li>
+                <li>Item 7</li>
+
+            </ul>
+        </div>
+        <h1 class="clrleftmenu">Disney World Skyliner</h1>
+        <h3 class="clrleftmenu">Walt Disney World Open Disney Skyliner</h3>
+        <h5 class="clrleftmenu">Lake Buena Vista, FL  September 29, 2019</h5>
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/_kgmxPo5F_g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="right"></iframe>
+        <img src="skyliner.jpg" class="clrleftmenu">
+        <div id="first-section" class="clrleftmenu">
+            <p>Disney opened the newest form of transportation today. The Skyliner will make stops at the following ports of call:</p>
+            <ul style="list-style: none">
+                <li>Pop Century and Art of Animation</li>
+                <li>Carribean Beach Resort</li>
+                <li>Riviera Resort</li>
+                <li>Disney's Hollywood Studio</li>
+                <li>Epcot</li>
+            </ul>
+        </div>
+        <div class="clrleftmenu">
+            <p>Approximate travel times have been revealed:</p>
+            <ol id="traveltimes">
+                <li>Pop Century and Art of Animation to Carribean Beach Resort: under 6 minutes</li>
+                <li>Carribean Beach Resort to Disney's Hollywood Studio: 5-6 minutes</li>
+                <li>Carribean Beach Resort to Riviera Resort: about 5 minutes</li>
+                <li>Carribean Beach Resort to Epcot's International Gateway: approximately 15 minutes</li>
+            </ol>
+            <table style="border: black">
+                <thead>
+                    <tr>
+                        <th>Resort</th>
+                        <th>Destination</th>
+                        <th>Travel Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pop Century and Art of Animation</td>
+                        <td>Carribean Beach Resort</td>
+                        <td>under 6 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>Carribean Beach Resort</td>
+                        <td>Disney's Hollywood Studio</td>
+                        <td>5-6 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>Carribean Beach Resort</td>
+                        <td>Riviera Resort</td>
+                        <td>about 5 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>Carribean Beach Resort</td>
+                        <td>Epcot's International Gateway</td>
+                        <td>approximately 15 minutes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
