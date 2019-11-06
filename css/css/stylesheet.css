@@ -1,0 +1,62 @@
+body {
+    background-color: #F1C40F;
+    color: #333;
+    font-size: 1.5em;
+}
+
+h1 {
+    color: cornflowerblue;
+    font-size: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+h2 {
+    font-size: 30px;
+    font-family: Georgia, Times, serif;
+}
+p {
+    color: green;
+    background: white;
+    padding: 15px;
+}
+ol {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+/*
+Styles for ID and Class lecture
+*/
+#main-title {
+    color: white;
+    background: #353535;
+    padding:10px;
+    margin: 20px;
+    font-size: 18;
+}
+.sectionHeader {
+    color: olive;
+    border: solid 1px black;
+    padding: 40px 20px 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+/*Styles for the descendant lecture*/
+.primary-box {
+    background-color: white;
+    border: solid 10px #333;
+}
+.secondary-box {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+.secondary-box p {
+    background-color: #333;
+    font-size: 14px;
+    font-style: normal;
+}
+.secondary-box p em {
+    color: #fc3fc3;
+}
